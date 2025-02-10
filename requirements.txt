@@ -9,3 +9,8 @@ langchain_core
 langchain_groq
 langserve
 validators==0.28.1
+youtube_transcript_api
+unstructured
+pytube
+langchain-yt-dlp
+pdfplumber
