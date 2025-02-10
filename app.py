@@ -22,7 +22,7 @@ with st.sidebar:
 
 generic_url= st.text_input("URL",label_visibility="collapsed")
 
-llm = ChatGroq(api_key=st.secrets["GROQ_API_KEY"], model="Gemma2-9b-It")
+llm = ChatGroq(api_key=groq_api_key, model="Gemma2-9b-It")
 
 promt_template="""
 Provide a summary of the following content in 300 words:
